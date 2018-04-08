@@ -100,6 +100,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   text-align: center;
+  text-decoration: none;
   font-size: 20px;
   padding: 10px;
   width: 200px;
@@ -275,7 +276,7 @@ nav ul li ul li a {
   width: 70px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .nav-mobile {
     display: block;
   }
@@ -349,7 +350,7 @@ nav ul li ul li a {
   transform: rotate(-360deg);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .nav-list {
     display: block !important;
   }
