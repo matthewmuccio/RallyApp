@@ -18,6 +18,17 @@
     // Hamburger to X toggle
     $('#nav-toggle').on('click', function() {
       this.classList.toggle('active');
+    });  
+    // Making logo disppear and reappear on toggle
+    $('#nav-toggle').click(function() {
+        $('.logo-full').fadeToggle(175);
+        $('#body-text').fadeToggle(150);
+        $('.home-button').fadeToggle(125);
+    });
+    
+    $('.logo-full').click(function() {
+        $('.logo-full').animate({width: "600px"});
+        $('.logo-full').animate({width: "400px"});
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
