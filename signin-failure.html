@@ -3,21 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Rally - A team creation facilitation platform</title>
+  <title>Rally - Sign In</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
-    
-  <script src="https://s3.amazonaws.com/stitch-sdks/js/library/v3/stable/stitch.min.js"></script>
-  <!-- Constructing a simple app-wide client. -->
-  <script>
-    import { StitchClientFactory } from 'mongodb-stitch';
-    let appId = 'rallyapp-texji';
-    let stitchClientPromise = StitchClientFactory.create(appId);
-  </script>
 </head>
 
 <body>
@@ -49,16 +41,22 @@
   </div>
 </section>
 
-<section class="body home-body">
-  <div class="home-elements">
-    <img class="logo-full" src="/img/logo-full.png">
-    <div id="body-text">
-      <p><b>A team creation facilitation platform</b></p>
+<section class="body signin-body">
+  <div class="signin-elements">
+    <h1>Oops ... </h1>
+    <h2>Something went wrong during your sign-in, sorry about that.</h2>
+    <img src="/img/x-mark.png" width="150" style="width: 150px;">
+    <div class="text-body">
+      <p class="body-text">You must <a href="/register.html">register</a> for an account or <a href="/signin.html">sign in</a> before you can join any events, create or join teams, and collaborate with other members prior to any events on the platform.</p>
+        
+      <p class="body-text">If you have already registered, please try to sign in with a Facebook or Google account below.</p>
+        
+      <button class="facebook-button" onclick="window.location.href='/'">Facebook</button>
+      <button class="google-button" onclick="window.location.href='/'">Google</button>
     </div>
-      <button class="home-button"><a href="/register.html"><span>Register </span></a></button>
   </div>
 </section>
-    
+
 <section class="footer">
   <div class="contain">
   <div class="col">
