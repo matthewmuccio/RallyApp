@@ -42,7 +42,7 @@ body {
 .about-body {
   padding: 1px 20px 1px 20px;
   background-color: #ffb600;
-  max-height: 1000px;
+  max-height: 1100px;
 }
 
 .about-elements {
@@ -153,6 +153,10 @@ body {
     cursor: pointer;
 }
 
+.facebook-button:hover {
+    background-color: #5c79b8;
+}
+
 .facebook-button:after {
     content: "";
     background: #f1f1f1;
@@ -189,6 +193,10 @@ body {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+}
+
+.google-button:hover {
+    background-color: #e8797b;
 }
 
 .google-button:after {
